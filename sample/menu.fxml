@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #091e3a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
+   <children>
+      <Text fill="#f6f5f5" layoutX="47.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You have successfully booked a table, we are waiting for you!!! You can view our main menu" wrappingWidth="552.1368103027344">
+         <font>
+            <Font name="Consolas" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="93.0" fitWidth="121.0" layoutX="8.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ImageFoto/9de49f0e-56c2-4791-aefa-74141b01682a_640x490_fit.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#ffffff" layoutX="129.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SALATS">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#cebfbf" layoutX="8.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CAESAR SALAD with chickenfried chicken fillet, vegetable oil, Caesar sauce, Grana cheese Served, white bread croutons, cherry tomatoes, Romano salad  250g. 2000tg                     DENVER chicken fillet with vegetables, cheese and lemon sauce. 265g. 1850tg              СORAL REEF SALMON with squid, snow crab, caviar, tuna sauce.  170g. 1950tg                   ARCOBALENO celery stalk, green apple, dor blue cheese, lolo rosso/biondo, frieze salad, basil, salad Radichio, pine nuts, olive oil  170g. 1500tg" wrappingWidth="198.80340099334717" />
+      <ImageView fitHeight="121.0" fitWidth="165.0" layoutX="218.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ImageFoto/kurinoe-file-na-grile-01.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="440.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOT DISH">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#cebfbf" layoutX="390.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SALMON SHISH KEBAB salmon fillet with narsharab sauce 170g. 4600tg.   JUICY FILLET OF BEEF TENDERLOIN Beef steak with grilled vegetables and ginger sauce. 150g. 4000tg.    CATFISH IN A SALT COAT 1 PC g. 2400tg." wrappingWidth="198.80340576171875" />
+      <ImageView fitHeight="133.0" fitWidth="175.0" layoutX="226.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ImageFoto/1541436368_luchshie-deserty-dlya-piknika-100-receptov.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#cebfbf" layoutX="359.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAPOLEON cake with air cream120 g. 760tg.  THE CHERRY STRUDEL Classic cherry strudel with ice cream ball120/50 g. 1050tg.CHOCOLATE CHEESECAKE 120 g. 2300tg." wrappingWidth="248.13671398162842" />
+      <Text fill="WHITE" layoutX="408.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESSERT">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button fx:id="OKButton" layoutX="277.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="OK" />
+   </children>
+</AnchorPane>
